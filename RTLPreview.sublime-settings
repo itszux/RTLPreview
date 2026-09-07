@@ -1,0 +1,39 @@
+{
+    // The mode to process RTL text.
+    //
+    // "full_line":   Displays the entire line (including English text, punctuation, and code),
+    //                relying on the renderer to handle bidirectional layout.
+    //
+    // "arabic_only": Hides all English text and code syntax, displaying ONLY the extracted
+    //                Arabic/RTL text chunks from the line.
+    "process_mode": "full_line",
+
+    // The rendering engine to use for the phantom images.
+    // "direct2d" (default): Modern Windows rendering. Supports color emojis natively.
+    // "gdi": Legacy Windows rendering. Slightly faster, but emojis are drawn as monochrome outlines.
+    "rendering_method": "direct2d",
+
+    // Font used for the rendered phantom images.
+    // By default (""), it automatically uses your active Sublime Text font.
+    // If you want a specific font for Arabic text, you can specify it here.
+    "phantom_font": "",
+
+    // Font size (in points) for the phantom images.
+    // By default (0), it automatically uses your active Sublime Text font size.
+    "phantom_font_size": 0,
+
+    // Whether to display a simulated cursor in the phantom preview.
+    "show_cursor": true,
+
+    // Whether to display selection highlighting in the phantom preview.
+    "show_selection": true,
+
+    // Whether to display a bookmark icon in the gutter for lines with RTL text.
+    "show_gutter_icon": true,
+
+    // If true, the plugin will only process and generate previews for the text currently
+    // visible on your screen (plus a small buffer). This massively improves performance 
+    // on large files, but previews may not instantly appear when using the scrollbar 
+    // until you click or move the cursor.
+    "process_only_visible": true
+}

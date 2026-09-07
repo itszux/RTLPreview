@@ -1,0 +1,51 @@
+[
+    {
+        "id": "view",
+        "children":
+        [
+            { "caption": "-" },
+            {
+                "caption": "RTL Preview",
+                "children":
+                [
+                    { "command": "rtl_toggle_view", "caption": "Toggle Preview" }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "RTL Preview",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args":
+                                {
+                                    "file": "${packages}/RTLPreview/RTLPreview.sublime-settings"
+                                },
+                                "caption": "Settings"
+                            },
+                            {
+                                "command": "open_file",
+                                "args":
+                                {
+                                    "file": "${packages}/User/RTLPreview.sublime-settings"
+                                },
+                                "caption": "Settings \u2013 User"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
