@@ -1,8 +1,0 @@
-[
-    { "caption": "-" },
-    {
-        "caption": "RTL Preview: Toggle Preview",
-        "command": "rtl_toggle_view",
-        "checkbox": true
-    }
-]

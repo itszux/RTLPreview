@@ -1,0 +1,5 @@
+# Ignore these files when creating the release package for Package Control
+preview*.png export-ignore
+*.bat export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore

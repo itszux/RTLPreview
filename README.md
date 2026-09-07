@@ -46,6 +46,16 @@ You can fully customize the plugin by modifying the user settings file:
 * `"show_cursor"` & `"show_selection"`: Toggle the live caret and selection highlighting in the phantoms.
 * `"process_only_visible"`: Massively improves performance on huge files by aggressively caching and exclusively rendering text currently visible in your viewport.
 
+### Key Bindings
+By default, the plugin does not bind any keys to avoid conflicting with other packages. You can toggle the RTL previews via the Command Palette (`RTL Preview: Toggle Preview`). 
+
+To add a custom shortcut, open **Preferences > Package Settings > RTL Preview > Key Bindings** and add the following:
+```json
+[
+    { "keys": ["ctrl+f1"], "command": "rtl_toggle_view" }
+]
+```
+
 ---
 
 ## Installation
