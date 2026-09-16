@@ -30,7 +30,7 @@
                                 "command": "edit_settings",
                                 "args":
                                 {
-                                    "base_file": "${packages}/RTLPreview/RTLPreview.sublime-settings",
+                                    "base_file": "${packages}/RTL Preview/RTL Preview.sublime-settings",
                                     "default": "{\n\t$0\n}\n"
                                 },
                                 "caption": "Settings"
@@ -40,13 +40,13 @@
                                 "id": "key_bindings"
                             },
                             {
+                                "caption": "Example Key Bindings",
                                 "command": "edit_settings",
                                 "args":
                                 {
-                                    "base_file": "${packages}/RTLPreview/Default.sublime-keymap",
-                                    "default": "[\n\t$0\n]\n"
-                                },
-                                "caption": "Key Bindings"
+                                    "base_file": "${packages}/RTL Preview/Example.sublime-keymap",
+                                    "user_file": "${packages}/User/Default (${platform}).sublime-keymap"
+                                }
                             }
                         ]
                     }

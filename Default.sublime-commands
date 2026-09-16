@@ -8,7 +8,7 @@
         "command": "edit_settings",
         "args":
         {
-            "base_file": "${packages}/RTLPreview/RTLPreview.sublime-settings",
+            "base_file": "${packages}/RTL Preview/RTL Preview.sublime-settings",
             "default": "{\n\t$0\n}\n"
         }
     },
@@ -17,7 +17,7 @@
         "command": "edit_settings",
         "args":
         {
-            "base_file": "${packages}/RTLPreview/Default.sublime-keymap",
+            "base_file": "${packages}/RTL Preview/Example.sublime-keymap",
             "default": "[\n\t$0\n]\n"
         }
     }

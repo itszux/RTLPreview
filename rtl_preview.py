@@ -14,7 +14,7 @@ try:
     for k in list(sys.modules.keys()):
         if k.endswith('dwrite_render'):
             del sys.modules[k]
-    from .dwrite_render import get_line_image_d2d
+    from .lib.dwrite_render import get_line_image_d2d
     _HAS_D2D = True
 except Exception as e:
     print("RTLPreview: Direct2D renderer failed to load:", e)
